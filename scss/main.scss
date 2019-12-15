@@ -35,8 +35,11 @@ h3 {
 }
 
 a {
-  color: #7D7D7D;
+  color: #0EF9D6;
   text-decoration: none;
+  &:hover {
+    color: #7D7D7D;
+  }
 }
 
 header {

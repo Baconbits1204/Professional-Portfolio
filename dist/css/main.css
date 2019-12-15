@@ -134,8 +134,10 @@ h3 {
     background: rgba(33, 33, 33, 0.5); }
 
 a {
-  color: #7D7D7D;
+  color: #0EF9D6;
   text-decoration: none; }
+  a:hover {
+    color: #7D7D7D; }
 
 header {
   position: fixed;
