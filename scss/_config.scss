@@ -1,5 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #1C1C1C;
+$secondary-color: #F80752;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -13,8 +13,9 @@ $background-opacity: 0.9;
     &#bg-img {
       background: $home-image;
       background-attachment: fixed;
-      background-size: contain;
+      background-size: cover;
       background-repeat: repeat-y;
+      background-position: center;
 
       &:after {
         content: '';
@@ -33,9 +34,9 @@ $background-opacity: 0.9;
 // Set Text Color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
-    @return #000;
+    @return #006665;
   } @else {
-    @return #fff;
+    @return #0EF9D5;
   }
 }
 
